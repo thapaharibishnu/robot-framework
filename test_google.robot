@@ -10,6 +10,7 @@ ${BROWSER}    Firefox
 ${HOMEPAGE}   http://www.google.com/
 
 *** Test Cases ***
+Create Wwebdriver   PhantomJS
 Open Google
   Open Browser To Google
   Google Should Be Open
