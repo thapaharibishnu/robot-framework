@@ -6,7 +6,7 @@ Documentation     A test suite with a single test for valid login.
 Library           Selenium2Library
 
 *** Variables ***
-${BROWSER}    Chrome
+${BROWSER}    Firefox
 ${HOMEPAGE}   http://www.google.com/
 
 *** Test Cases ***
