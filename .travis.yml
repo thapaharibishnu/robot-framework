@@ -1,3 +1,6 @@
+before_install:
+  - sudo apt-get update -qq
+  - pip install robotframework
 language: python
 python:
   - "2.7"
