@@ -6,11 +6,10 @@ Documentation     A test suite with a single test for valid login.
 Library           Selenium2Library
 
 *** Variables ***
-${BROWSER}    Firefox
+${BROWSER}    PhantomJS
 ${HOMEPAGE}   http://www.google.com/
 
 *** Test Cases ***
-Create Wwebdriver   PhantomJS
 Open Google
   Open Browser To Google
   Google Should Be Open
@@ -22,4 +21,3 @@ Open Browser To Google
 
 Google Should Be Open
   Title Should Be   Google
-
