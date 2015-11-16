@@ -1,6 +1,7 @@
+#user container-based infrastructure
 sudo: false
 before_install:
-# install dependencies: Robot Framework, Selenium2Library
+# install dependencies
 install: "pip install -r requirements.txt"  
 language: python
 python:
